@@ -12,7 +12,7 @@ public class GithubActions {
 	@GetMapping("/greet")
 	public String getGreeting()
 	{
-		return  "Welcome to greetings";
+		return  "Welcome to greetings1+ rerunning";
 
 	}
 
