@@ -21,7 +21,7 @@ jobs:
       uses: actions/setup-java@v2
     - name: Get hostname
       shell: echo $HOSTNAME
-      register: result
+      
       with:
         java-version: '11'
         distribution: 'adopt'
